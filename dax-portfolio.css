@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+#title {
+    background: blue; /* Change to some other color */
+    padding: 10px;
+    
+    /* Make text white? */
+}
+
+#title > img {
+    border-radius: 50%; /* Double check border radius */
+}
+
+#port-content-main {
+    padding: 10px;
+}
+
+#port-content-main {
+    size: 10pt;
+}
+
+#port-content-main > p {
+    padding: 5px;
+}
