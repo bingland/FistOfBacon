@@ -13,7 +13,7 @@
                 padding: 0;
                 margin: 0;
             }
-            #wrapper{
+            .wrapper{
                 width: 1000px;
                 margin: 0 auto;
             }
@@ -23,6 +23,7 @@
                 width:100%;
                 padding: 0;
                 margin: 0;
+                margin-top: 10px;
             }
             h1 {
                 font-size: 200px;
@@ -30,16 +31,16 @@
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50%, -115%);
+                transform: translate(-50%, -90%);
                 text-align: center;
-                color: black;
+                color: #FF6559;
             }
 
             /* navigation */
             nav {
                 padding:0;
                 margin: 0;
-                background-color: lightsalmon;
+                background-color: #FF6559;
                 display: block;
                 margin-top:-3px;
             }
@@ -71,22 +72,26 @@
         </style>
     </head>
     <body>
-        <div id="wrapper">
             <header>
-                <img src="wallpaper.jpeg" id="cover">
-                <h1>BACON</h1>
                 <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Recipes</li>
-                        <li>Facts</li>
-                        <li>About</li>
-                        <li>Contact Us</li>
-                    </ul>
+                    <div class="wrapper">
+                        <ul>
+                            <li>Home</li>
+                            <li>Recipes</li>
+                            <li>Facts</li>
+                            <li>About</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
                 </nav>
+                <div class="wrapper">
+                    <img src="wallpaper.jpeg" id="cover">
+                    <h1>BACON</h1>
+                </div>
             </header>
             
             <section>
+                <div class="wrapper">
                     <p>
                     Team Name: Fist of Bacon<br>
                     <br>
@@ -120,11 +125,13 @@
                     Week Five: Review and Testing<br>
                     Week Six: Finished<br>
                     </p>
+                </div>
             </section>
 
             <footer>
-                <p>Created by Daxton Holmes and Brayden England</p>
+                <div class="wrapper">
+                    <p>Created by Daxton Holmes and Brayden England</p>
+                </div>
             </footer>
-        </div>
     </body>
 </html>
