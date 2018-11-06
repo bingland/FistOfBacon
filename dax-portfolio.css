@@ -3,14 +3,15 @@
     margin: 0;
     border: none;
 }
-#title {
-    background: blue; /* Change to some other color */
+#port_jumbo_main {
+    background: linear-gradient(#5CF8FF,#26F6FF);/* Change to some other color */
     padding: 10px;
+    margin-bottom: 0;
     
     /* Make text white? */
 }
 
-#title > img {
+#port_jumbo_main > img {
     border-radius: 50%; /* Double check border radius */
 }
 
@@ -24,4 +25,13 @@
 
 #port-content-main > p {
     padding: 5px;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#port_copy_bottom {
+    margin-bottom: 0;
 }
