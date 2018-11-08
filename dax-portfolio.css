@@ -3,6 +3,8 @@
     margin: 0;
     border: none;
 }
+
+/*********************** Header *********************/
 #port_jumbo_main {
     background: linear-gradient(#5CF8FF,#26F6FF);/* Change to some other color */
     padding: 10px;
@@ -21,6 +23,8 @@
     height: 250px;
 }
 
+/*********************** Body *********************/
+
 #port-content-main {
     padding: 10px;
 }
@@ -38,6 +42,29 @@
     padding-left: 0;
 }
 
+#port-content-main-list > ul {
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.card {
+    width: 18rem;
+}
+
+/*********************** Footer *********************/
+
 #port_copy_bottom {
     margin-bottom: 0;
+    height: 60px;  
+    background-color: #D8E1E8;
+}
+
+#port_copy_text {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#port_copy_port-pages {
+    padding: 0 0 5px 10px;
+    background: #D8E1E8;
 }
