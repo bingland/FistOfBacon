@@ -49,11 +49,13 @@
 
 .card {
     width: 18rem;
+   
 }
 
 /*********************** Footer *********************/
 
 #port_copy_bottom {
+    margin-top: 10px;
     margin-bottom: 0;
     height: 60px;  
     background-color: #D8E1E8;
