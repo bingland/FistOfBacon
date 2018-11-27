@@ -1,0 +1,80 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FFEADB;
+}
+
+/*
+    Color set that I like
+    https://color.adobe.com/create/color-wheel/?base=2&rule=Complementary&selected=3&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.7,0.60151960784315,0.5311764705882352,1,0.9759803921568658,0.9588235294117646,1,0.9176470588235294,0.8588235294117647,0.4611764705882352,0.6796491228069879,0.7,0.8588235294117647,0.9879699248120125,1&swatchOrder=0,1,2,3,4    
+*/
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+}
+
+/*logo*/
+nav h1 {
+    float: left;
+    font-size: 60px;
+    color: #76ADB2;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+
+/*Navigation Buttons*/
+nav .navButtons {
+    float:right;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 54px;
+}
+
+nav .navButtons ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+nav .navButtons ul li {
+    /*float: left;*/
+    font-size: 25px;
+    color: #76ADB2;
+    margin-left: 35px;
+}
+
+nav .navButtons ul li:hover {
+    text-decoration: underline;
+}
+
+/* Grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.textCell {
+    max-width: 50%;
+    
+}
+
+/* Languages icons */
+
+.icon {
+    max-height: 300px;
+}
