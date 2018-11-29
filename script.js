@@ -9,22 +9,25 @@ function drawChart() {
   var data = new google.visualization.DataTable({
 
     cols: [
-      {id: 'team', label: 'Team', type: 'string'},
-      {id: 'start', label: 'Season Start Date', type: 'date'},
-      {id: 'end', label: 'Season End Date', type: 'date'}
+      {id: 'Event', label: 'Event', type: 'string'},
+      {id: 'start', label: 'Start Date', type: 'date'},
+      {id: 'end', label: 'End Date', type: 'date'}
     ],
 
     rows: [
-      {c: [{v: 'Chinese Invent Bacon'},     {v: 'Date(1300, 0, 1)'}, {v: 'Date(1400, 1, 5)'}]},
-      {c: [{v: 'Romans eat a type of bacon called petaso'}, {v: 'Date(1500, 8, 5)'}, {v: 'Date(1600, 1, 5)'}]},
-      {c: [{v: 'First Bacon factory opend in England'}, {v: 'Date(1770, 0, 1)'}, {v: 'Date(1870, 0, 1)'}]}
+      {c: [{v: '1300 BC: Chinese Invent Bacon.'},     {v: 'Date(1300, 0, 1)'}, {v: 'Date(1301, 0, 1)'}]},
+      {c: [{v: 'Romans eat a type of bacon called petaso.'}, {v: 'Date(1500, 0, 1)'}, {v: 'Date(1501, 0, 1)'}]},
+      {c: [{v: 'First Bacon factory opend in England.'}, {v: 'Date(1770, 0, 1)'}, {v: 'Date(1771, 0, 1)'}]},
+      {c: [{v: 'World War II: Bacon grease donated by households for munitions.'}, {v: 'Date(1939, 8, 3)'}, {v: 'Date(1945, 8, 2)'}]},
+      {c: [{v: 'World War II: Bacon grease donated by households for munitions.'}, {v: 'Date(1992, 0, 1)'}, {v: 'Date(1993, 0, 1)'}]}
     ]
   });
 
   var options = {
     height: 450,
     timeline: {
-      groupByRowLabel: true
+      groupByRowLabel: true,
+      
     }
   };
 
