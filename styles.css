@@ -2,3 +2,62 @@
     margin: 0;
     padding: 0;
 }
+
+.pg_link > a {
+    margin:5px;
+    padding:5px;
+    text-decoration: none;
+
+    color: white;
+    background-color: #37ABFF;
+    border-radius: 3px;
+}
+
+.pg_link > a:hover {
+    background-color: #2C78CC;
+    
+}
+
+.sv_main_one {
+    display: inline-flex;
+}
+
+.sv_main_two {
+    display: block;
+}
+
+.sv_section_one {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    background: blue;
+    height: 350px;
+
+    text-align: center;
+}
+
+.sv_section_two {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    background: red;
+    height: 350px;
+
+    text-align: center;
+}
+
+.sv_section_three {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    background: green;
+    height: 350px;
+}
+
+.sv_section_four {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    background: yellow;
+    height: 350px;
+}
