@@ -19,45 +19,64 @@
 }
 
 .sv_main_one {
-    display: inline-flex;
+    display: inline;
 }
 
 .sv_main_two {
     display: block;
 }
 
-.sv_section_one {
+#sv_section_one {
     padding: 0;
-    margin: 0;
-    width: 50%;
+    margin: 5px;
     background: blue;
     height: 350px;
 
     text-align: center;
 }
 
-.sv_section_two {
+#sv_section_two {
     padding: 0;
-    margin: 0;
-    width: 50%;
+    margin: 5px;
     background: red;
     height: 350px;
 
     text-align: center;
 }
 
-.sv_section_three {
-    padding: 0;
-    margin: 0;
-    width: 50%;
-    background: green;
+#sv_section_three {
+   padding: 0;
+    margin: 5px;
     height: 350px;
+
+    background: green;
+    
+    text-align: center;
 }
 
-.sv_section_four {
+#sv_section_four {
     padding: 0;
-    margin: 0;
-    width: 50%;
-    background: yellow;
+    margin: 5px;
     height: 350px;
+
+    background: yellow;
+    
+    text-align: center;
+}
+
+#sv_section_five {
+    margin: 5px;
+    background: url(./images/The_United_Church_of_Bacon.jpg);
+    background-position: center;
+    height: 350px;
+
+    text-align: center;
+}
+
+#sv_section_six {
+    margin: 5px;
+    background: purple;
+    height: 350px;
+
+    text-align: center;
 }
