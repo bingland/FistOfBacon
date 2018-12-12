@@ -29,7 +29,6 @@
 #sv_section_one {
     padding: 0;
     margin: 5px;
-    background: blue;
     height: 350px;
 
     text-align: center;
@@ -38,7 +37,6 @@
 #sv_section_two {
     padding: 0;
     margin: 5px;
-    background: red;
     height: 350px;
 
     text-align: center;
@@ -49,8 +47,6 @@
     margin: 5px;
     height: 350px;
 
-    background: green;
-    
     text-align: center;
 }
 
@@ -58,6 +54,23 @@
     padding: 0;
     margin: 5px;
     height: 350px;
+    text-align: center;
+}
+
+#sv_section_five {
+    padding: 0;
+    margin: 5px;
+    background-position: center;
+    height: 350px;
+
+    text-align: center;
+}
+
+#sv_section_six {
+    padding: 0;
+    margin: 5px;
+    height: 350px;
+
     text-align: center;
 }
 
@@ -79,14 +92,39 @@
   backface-visibility: hidden;
 
   height: 350px;
-  width: 50%;
+  width: 100%;
 }
 
 #sv_section_txt {
-    background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
+   /* background-color: #4CAF50; */
+  color:#FF8C40;
+  font-size: 32px;
   padding: 16px 32px;
+  text-transform: uppercase;
+}
+
+#sv_section_one:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_one:hover #sv_section_md {
+    opacity: 1.0;
+}
+
+#sv_section_two:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_two:hover #sv_section_md {
+    opacity: 1.0;
+}
+
+#sv_section_three:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_three:hover #sv_section_md {
+    opacity: 1.0;
 }
 
 #sv_section_four:hover #sv_section_img {
@@ -97,19 +135,18 @@
     opacity: 1.0;
 }
 
-
-#sv_section_five {
-    margin: 5px;
-    background-position: center;
-    height: 350px;
-
-    text-align: center;
+#sv_section_five:hover #sv_section_img {
+    opacity: 0.3;
 }
 
-#sv_section_six {
-    margin: 5px;
-    background: purple;
-    height: 350px;
+#sv_section_five:hover #sv_section_md {
+    opacity: 1.0;
+}
 
-    text-align: center;
+#sv_section_six:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_six:hover #sv_section_md {
+    opacity: 1.0;
 }
