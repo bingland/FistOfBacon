@@ -1,6 +1,6 @@
 /*  */
 * {
-    font-family: Tahoma;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -9,7 +9,15 @@
     margin: 0 auto;
 }
 
-/* header */
+@media screen and (max-width: 1250px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+/* header 
+   removed this in the html
+*/
 #cover {
     width:100%;
     padding: 0;
@@ -58,9 +66,41 @@ nav ul li:hover {
 }
 
 /* section */
-p {
-    padding: 10px;
-    font-size: 17px;
+.topSection {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 930px) {
+    .topSection {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.topSection h1 {
+    font-size: 100px;
+    font-weight: normal;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+#topImg {
+    width: 100%; 
+}
+
+.topSection h2 {
+    width: auto;
+    font-weight: normal;
+    padding: 20px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+.projectInfo p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
 /* footer */
