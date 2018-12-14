@@ -1,19 +1,4 @@
-/*  */
-* {
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-}
-.wrapper{
-    width: 1200px;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 1250px) {
-    .wrapper {
-        width: 100%;
-    }
-}
+/* Global CSS included */
 
 /* header 
    removed this in the html
@@ -25,45 +10,6 @@
     border-radius: 10px;
 }
 
-/* navigation */
-nav {
-    padding:0;
-    margin: 0;
-    background-color: #FF6559;
-    display: block;
-    margin-top:-3px;
-    height: 64px;
-}
-nav::after {
-    content: "";
-    clear: both;
-    display: none;
-}
-.logoText {
-    float: left;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    color: white;
-    padding-left: 10px;
-    cursor: pointer;
-}
-nav ul {
-    list-style: none;
-    float: right;
-    text-align: center;
-}
-nav ul li {
-    font-size: 25px;
-    font-family: 'Oswald', sans-serif;
-    padding: 13.5px;
-    width: auto;
-    float: left;
-    color: white;
-}
-nav ul li:hover {
-    background-color: green;
-    cursor: pointer;
-}
 
 /* section */
 .topSection {
@@ -81,9 +27,10 @@ nav ul li:hover {
 
 .topSection h1 {
     font-size: 100px;
-    font-weight: normal;
-    margin-top: 45px;
+    font-weight: bold;
+    padding-top: 100px;
     margin-bottom: 10px;
+    color: #303030;
 }
 
 #topImg {
@@ -103,9 +50,3 @@ nav ul li:hover {
     font-size: 15px;
 }
 
-/* footer */
-footer {
-    background: grey;
-    text-align: center;
-    font-size: 10px;
-}
