@@ -63,14 +63,53 @@ nav .navButtons ul li:hover {
     text-decoration: underline;
 }
 
+/* top part*/
+
+.topArea {
+    height: 400px;
+    margin-top: 50px;
+}
+
+.topArea .areaText {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.topArea h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #76ADB2;
+}
+.topArea p {
+    font-size: 30px;
+}
+.topArea img {
+    float:right;
+    position: relative;
+    width: 500px;
+}
+
 /* Grid */
+
+.skillsTitle {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #76ADB2;
+}
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 900px;
+    margin: 0 auto;
     grid-gap: 30px;
     align-items: center;
     justify-items: center;
+    margin-bottom: 50px;
 }
 
 .textCell {
@@ -85,4 +124,22 @@ nav .navButtons ul li:hover {
     width: auto;
     max-height: 300px;
     max-width: 200px;
+}
+
+.cssIcon {
+    max-height: 200px;
+}
+
+.javaIcon {
+    max-height: 200px;
+}
+
+/* footer */
+footer {
+    background-color: #B2917A;
+    padding: 5px;
+    text-align: center;
+}
+footer p {
+    padding: 5px;
 }
