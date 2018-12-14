@@ -73,6 +73,15 @@
     background-color: #FF6338;
     color: white;
 
+}
 
+/* Form */
 
+.hr_sub_signup {
+    padding: 15px;
+}
+
+.form {
+    width: 50%;
+    padding: 25px;
 }
