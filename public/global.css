@@ -123,9 +123,8 @@ nav #toggle {
 
 /* footer */
 footer {
-    font-weight: bold;
     background: grey;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 16px;
     padding: 15px;
