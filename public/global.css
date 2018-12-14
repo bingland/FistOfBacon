@@ -59,6 +59,7 @@ nav ul li:hover {
 
 /* footer */
 footer {
+    font-weight: lighter;
     background: grey;
     color: black;
     text-align: center;
