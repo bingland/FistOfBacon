@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/* Icons */
+#ph_icon {
+     width: 80px;
+     height: 80px;
+     padding: 5px;
+     padding-right: 15px;
+}
+#m_icon {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    padding-right: 15px;
+}
+#c_icon {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    padding-right: 15px;
+}
+
+/* Corporate Information */
+#contact_info li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#contact_info {
+    padding: 15% 15% 0;
+}
+
+.corp_title {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#buttons {
+    padding: 5% 20% 0;
+}
+
+/* Page Layout */
+
+.row {
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+}
+
+.column {
+    flex: 50%;
+}
+
+.corporate {
+    width: 100%;
+}
+
+/* HR Sections */
+
+.hr_section_one > h1 {
+    padding: 10px;
+}
+
+.hr_section_one {
+    border: none;
+    width: 100%;
+    margin: 5px;
+    
+    background-color: #FF6338;
+    color: white;
+
+}
+
+/* Form */
+
+.hr_sub_signup {
+    padding: 15px;
+}
+
+.form {
+    width: 50%;
+    padding: 25px;
+}
