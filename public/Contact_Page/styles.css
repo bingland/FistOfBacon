@@ -3,6 +3,13 @@
     padding: 0;
     border: none;
 }
+
+/* added in stuff */
+
+footer p {
+    margin: 0;
+}
+
 /* Icons */
 #ph_icon {
      width: 80px;

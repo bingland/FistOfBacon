@@ -20,6 +20,14 @@ nav a {
     color: white;
     font-family: 'Oswald', sans-serif;
 }
+nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
 
 footer a {
     text-decoration: none;
