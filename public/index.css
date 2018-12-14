@@ -118,6 +118,9 @@ nav {
         grid-column-gap: 10px;
         margin: 0 10px 0 10px;
     }
+    .otherSection {
+        margin: 0 10px 0 10px;
+    }
 }
 
 .myBox {
