@@ -4,7 +4,25 @@
 }
 
 /* content that i added */
+.upperArea {
+    margin-top: 67px;
+}
+.upperArea h1 {
+    padding: 10px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.upperArea p {
+    font-size: 30px;
+    padding: 10px;
+    padding-top: 0;
+}
 
+nav {
+    z-index: 1111;
+    margin-top: -241px;
+}
+/* end */
 
 .pg_link > a {
     margin:5px;
