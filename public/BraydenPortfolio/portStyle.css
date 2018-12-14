@@ -40,6 +40,11 @@ nav .navButtons {
     margin-bottom: 30px;
 }
 
+nav .navButtons a {
+    text-decoration: none;
+    color: #76ADB2;
+}
+
 nav .navButtons ul {
     display: flex;
     justify-content: center;
@@ -63,6 +68,7 @@ nav .navButtons ul li:hover {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
     align-items: center;
     justify-items: center;
 }
@@ -75,5 +81,8 @@ nav .navButtons ul li:hover {
 /* Languages icons */
 
 .icon {
+    height: auto;
+    width: auto;
     max-height: 300px;
+    max-width: 200px;
 }
