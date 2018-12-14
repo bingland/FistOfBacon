@@ -10,6 +10,10 @@
     border-radius: 10px;
 }
 
+nav {
+    z-index: 1;
+}
+
 
 /* section */
 .topSection {
@@ -35,16 +39,101 @@
 
 #topImg {
     width: 100%; 
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(10px 10px 20px #222);
+    z-index: -1;
 }
 
 .topSection h2 {
     width: auto;
+    font-size: 30px;
     font-weight: normal;
     padding: 20px;
     color: #303030;
-    margin-bottom: 20px;
 }
 
+/* recipe section */
+.recipeSection {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.recipeSection h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.recipeSection h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #303030;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.recipeFeature {
+    display: grid;
+    max-width: 900px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+}
+
+.recipe {
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.recipe img {
+    width: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe p {
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.recipeFeature a {
+    text-decoration: none;
+    color: black;
+}
+/* Miscellaneous section */
+
+.otherSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 750px;
+    margin: 0 auto;
+    grid-column-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.myBox {
+    border: 2px solid #FF6559;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.myBox h1 {
+    padding: 5px;
+    text-align: center;
+}
+
+.myBox p {
+    padding: 5px;
+    text-align: center;
+}
+
+.aboutBox h1 {
+    padding-top: 8px;
+}
+
+
+/* will at some point get rid of this. */
 .projectInfo p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
