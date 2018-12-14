@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* content that i added */
+.upperArea {
+    margin-top: 67px;
+}
+.upperArea h1 {
+    padding: 10px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.upperArea p {
+    font-size: 30px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+nav {
+    z-index: 1111;
+    margin-top: -241px;
+}
+
+footer p {
+    margin: 0;
+}
+/* end */
+
+.container p {
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.pg_link {
+    margin-bottom: 35px;
+}
+
+.pg_link > a {
+    margin:5px;
+    padding:5px;
+    text-decoration: none;
+
+    color: white;
+    background-color: #37ABFF;
+    border-radius: 3px;
+}
+
+.pg_link > a:hover {
+    background-color: #2C78CC;
+    
+}
+
+.sv_main_one {
+    display: inline;
+}
+
+.sv_main_two {
+    display: block;
+}
+
+#sv_section_one {
+    padding: 0;
+    margin: 5px;
+    height: 350px;
+
+    text-align: center;
+}
+
+#sv_section_two {
+    padding: 0;
+    margin: 5px;
+    height: 350px;
+
+    text-align: center;
+}
+
+#sv_section_three {
+   padding: 0;
+    margin: 5px;
+    height: 350px;
+
+    text-align: center;
+}
+
+#sv_section_four {
+    padding: 0;
+    margin: 5px;
+    height: 350px;
+    text-align: center;
+}
+
+#sv_section_five {
+    padding: 0;
+    margin: 5px;
+    background-position: center;
+    height: 350px;
+
+    text-align: center;
+}
+
+#sv_section_six {
+    padding: 0;
+    margin: 5px;
+    height: 350px;
+
+    text-align: center;
+}
+
+#sv_section_md {
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#sv_section_img {
+    opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+  height: 350px;
+  width: 100%;
+}
+
+#sv_section_txt {
+   /* background-color: #4CAF50; */
+  color:#FF8C40;
+  font-size: 32px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+}
+
+#sv_section_one:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_one:hover #sv_section_md {
+    opacity: 1.0;
+}
+
+#sv_section_two:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_two:hover #sv_section_md {
+    opacity: 1.0;
+}
+
+#sv_section_three:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_three:hover #sv_section_md {
+    opacity: 1.0;
+}
+
+#sv_section_four:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_four:hover #sv_section_md {
+    opacity: 1.0;
+}
+
+#sv_section_five:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_five:hover #sv_section_md {
+    opacity: 1.0;
+}
+
+#sv_section_six:hover #sv_section_img {
+    opacity: 0.3;
+}
+
+#sv_section_six:hover #sv_section_md {
+    opacity: 1.0;
+}
