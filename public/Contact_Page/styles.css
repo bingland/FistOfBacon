@@ -45,13 +45,17 @@ footer p {
 }
 
 .corp_title {
+    margin-top: 10px;
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 
 #buttons {
-    padding: 5% 20% 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 /* Page Layout */
@@ -67,7 +71,9 @@ footer p {
 }
 
 .corporate {
-    width: 100%;
+    padding: 10px;
+    padding-right: 5px;
+    width: 102%;
 }
 
 /* HR Sections */
@@ -78,10 +84,13 @@ footer p {
 
 .hr_section_one {
     border: none;
-    width: 100%;
-    margin: 5px;
-    
-    background-color: #FF6338;
+    width: 98%;
+    margin: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
     color: white;
 
 }
@@ -93,6 +102,7 @@ footer p {
 }
 
 .form {
-    width: 50%;
+    width: auto;
+    max-width: 500px;
     padding: 25px;
 }

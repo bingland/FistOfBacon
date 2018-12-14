@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    min-width: 380px;
+}
 
 /* content that i added */
 .upperArea {
@@ -21,6 +24,22 @@
 nav {
     z-index: 1111;
     margin-top: -241px;
+}
+
+@media screen and (max-width: 1018px) {
+    nav {
+        margin-top: -286px;
+    }
+}
+@media screen and (max-width: 567px) {
+    nav {
+        margin-top: -358px;
+    }
+}
+@media screen and (max-width: 524px) {
+    nav {
+        margin-top: -403px;
+    }
 }
 
 footer p {

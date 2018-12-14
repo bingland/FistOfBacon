@@ -25,6 +25,18 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 600px;
 }
+
+@media screen and (max-width: 900px) {
+    .recipeArea {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 580px) {
+    .recipeArea {
+        grid-template-columns: 1fr;
+    }
+}
+
 .recipeArea ul {
     padding-left: 20px;
 }
