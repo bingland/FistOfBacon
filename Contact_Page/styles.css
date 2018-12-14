@@ -1,0 +1,29 @@
+#ph_icon {
+ width: 80px;
+ height: 80px;
+ padding: 10px;
+}
+#m_icon {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+#c_icon {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+#col_one {
+    background: purple;
+
+}
+
+#col_two {
+    background: green;
+
+}
+
+#contact_info li {
+    list-style: none;
+}
