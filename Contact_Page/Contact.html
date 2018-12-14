@@ -42,16 +42,17 @@
             <h1>If you love Bacon as much as we do we would love to hear from you!</h1>
         </div>
         <div class="hr_sub_signup">
-            <h2>Want to get the latest Bacon news? Sign up to recieve our free Newsletter!</h2>
+            <h2>Want to get the latest Bacon news? Sign up to recieve a free Newsletter!</h2>
                 <div class="form">
-                <form>
+                <form name="sub_form" onsubmit="return submitAlert()">
                    <h3>First Name:</h3> <input type="text" name="fname_field" class="form-control">
                    <h3>Last Name:</h3> <input type="text" name="lname_field" class="form-control">
                    <h3>Email:</h3> <input type="email" name="email_field" id="" class="form-control"><br>
-                   <input class="btn btn-primary" type="button" value="Submit" onclick="submitAlert()">
+                   <input class="btn btn-primary" type="submit" value="Submit">
                 </form>
                 </div>
         </div>
+        <script src="./form.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
