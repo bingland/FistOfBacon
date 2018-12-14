@@ -71,8 +71,53 @@ nav ul li {
     color: white;
 }
 nav ul li:hover {
-    background-color: green;
+    background-color: #FF8478;
     cursor: pointer;
+}
+
+/* Nav Toggler */
+
+nav label {
+    display: none;
+    position: relative;
+    color: white;
+    font-size: 35px;
+    top: 8px;
+    float: right;
+    right: 23px; 
+}
+
+nav #toggle {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    nav label {
+        display: block; 
+    }
+    nav ul {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 64px;
+    border-bottom: 1px solid black;
+    display: none; 
+    }
+    nav ul li {
+        padding: 10px 0 10px 0;
+        margin: 0;
+        border-top: 1px solid black;
+        display: block;
+        width: 100%;
+        background-color: #FF6559; }
+    nav ul li a:hover {
+        text-decoration: none; 
+    }
+    nav #toggle:checked + ul {
+        display: block;
+        position: absolute; 
+    }
 }
 
 /* footer */
