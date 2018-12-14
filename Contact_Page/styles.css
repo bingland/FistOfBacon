@@ -1,27 +1,18 @@
+
 #ph_icon {
- width: 80px;
- height: 80px;
- padding: 10px;
+     width: 80px;
+     height: 80px;
+     padding: 5px;
 }
 #m_icon {
     width: 80px;
     height: 80px;
-    padding: 10px;
+    padding: 5px;
 }
 #c_icon {
     width: 80px;
     height: 80px;
-    padding: 10px;
-}
-
-#col_one {
-
-
-}
-
-#col_two {
-
-
+    padding: 5px;
 }
 
 #contact_info li {
