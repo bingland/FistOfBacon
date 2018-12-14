@@ -1,0 +1,72 @@
+/* global.css included in html */
+
+/* top section of page */
+section {
+    padding-top: 64px;
+}
+
+.topSection {
+    padding: 25px;
+}
+
+.topSection h1 {
+    font-size: 64px;
+    color: #303030;
+}
+
+.topSection h2 {
+    font-size: 32px;
+    color: #303030;
+}
+
+/* recipe boxes */
+.recipeArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 600px;
+}
+.recipeArea ul {
+    padding-left: 20px;
+}
+.recipeArea ol {
+    padding-left: 20px;
+}
+.recipeArea li {
+    padding-top: 5px;
+    line-height: 1.2;
+}
+
+.recipeBox {
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: auto;
+    overflow: hidden;
+}
+.recipeBox:hover {
+    cursor: pointer;
+}
+
+.recipeContent {
+    padding: 10px;
+}
+
+.boxImg img {
+    width: 100%;
+}
+
+
+.boxTitle h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.boxContent {
+    height: 100%;
+}
+
+.boxContent h3 {
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+}
